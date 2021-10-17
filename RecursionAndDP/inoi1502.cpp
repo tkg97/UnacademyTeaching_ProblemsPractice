@@ -1,9 +1,8 @@
 // https://www.codechef.com/INOIPRAC/problems/INOI1502
-// We could have easily optimize it with DP and even further optimization is possible in finding the factors using seive
-
-// But in this session, only recursion is in focus and hence this solution.
+// We could have easily optimize it with DP, but in this session, only recursion is in focus and hence this solution.
 // Simply add hashmap to convert it to top down memoization approach.
-// I wasn't expecting such an inefficient solution to pass though.
+// This solution surely has repetition due to overlapping subproblems and seems inefficient, but passes all the test cases. 
+// The reason becomes clear when we calculate the time complexity, where repetition is not that bad.
 
 #include <iostream>
 #include <vector>
