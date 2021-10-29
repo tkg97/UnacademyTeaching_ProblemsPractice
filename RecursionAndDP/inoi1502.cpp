@@ -1,7 +1,7 @@
 // https://www.codechef.com/INOIPRAC/problems/INOI1502
 // We could have easily optimize it with DP, but in this session, only recursion is in focus and hence this solution.
 // Simply add hashmap to convert it to top down memoization approach.
-// This solution surely has repetition due to overlapping subproblems and seems inefficient, but passes all the test cases. 
+// This solution surely has repetition due to overlapping subproblems and seems inefficient, but passes all the test cases.
 // The reason becomes clear when we calculate the time complexity, where repetition is not that bad.
 
 #include <iostream>
